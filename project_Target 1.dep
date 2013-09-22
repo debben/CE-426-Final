@@ -1,0 +1,159 @@
+Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f2xx.s)(0x523B1690)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx --list "startup_stm32f2xx.lst" --xref -o "startup_stm32f2xx.o" --depend "startup_stm32f2xx.d")
+F (.\LCD_TEST.c)(0x523DD15C)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "lcd_test.o" --omf_browse "lcd_test.crf" --depend "lcd_test.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (Display.h)(0x523DC7F1)
+I (board_files/GLCD.h)(0x5239C61E)
+I (Text.h)(0x523DD302)
+I (Time.h)(0x523DC85D)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504DF7CC)
+I (board_files/sram.h)(0x5239C61E)
+I (board_files/Serial.h)(0x5239C61E)
+I (Inputs.h)(0x523DD55D)
+I (board_files/JOY.h)(0x5239C61E)
+I (board_files/LED.h)(0x5239C61E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB18956)
+F (.\board_files\JOY.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "joy.o" --omf_browse "joy.crf" --depend "joy.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files\JOY.h)(0x5239C61E)
+I (board_files\I2C.h)(0x5239C61E)
+F (.\board_files\LED.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "led.o" --omf_browse "led.crf" --depend "led.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files\LED.h)(0x5239C61E)
+F (.\board_files\Serial.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "serial.o" --omf_browse "serial.crf" --depend "serial.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files\Serial.h)(0x5239C61E)
+F (.\board_files\JOY.h)(0x5239C61E)()
+F (.\board_files\LED.h)(0x5239C61E)()
+F (.\board_files\Serial.h)(0x5239C61E)()
+F (.\board_files\GLCD.h)(0x5239C61E)()
+F (.\board_files\GLCD_16bitIF_STM32F2xx.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "glcd_16bitif_stm32f2xx.o" --omf_browse "glcd_16bitif_stm32f2xx.crf" --depend "glcd_16bitif_stm32f2xx.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files\GLCD.h)(0x5239C61E)
+I (board_files\Font_6x8_h.h)(0x5239C61E)
+I (board_files\Font_16x24_h.h)(0x5239C61E)
+F (.\board_files\I2C.h)(0x5239C61E)()
+F (.\board_files\I2C_STM32F2xx.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "i2c_stm32f2xx.o" --omf_browse "i2c_stm32f2xx.crf" --depend "i2c_stm32f2xx.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files\I2C.h)(0x5239C61E)
+F (.\board_files\system_stm32f2xx.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "system_stm32f2xx.o" --omf_browse "system_stm32f2xx.crf" --depend "system_stm32f2xx.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+F (.\board_files\KBD.c)(0x5239C61E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "kbd.o" --omf_browse "kbd.crf" --depend "kbd.d")
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files\KBD.h)(0x5239C61E)
+F (.\board_files\KBD.h)(0x5239C61E)()
+F (.\board_files\sram.c)(0x523D9806)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "sram.o" --omf_browse "sram.crf" --depend "sram.d")
+I (board_files\sram.h)(0x5239C61E)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+F (.\board_files\sram.h)(0x5239C61E)()
+F (.\Display.c)(0x523DD551)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "display.o" --omf_browse "display.crf" --depend "display.d")
+I (Display.h)(0x523DC7F1)
+I (board_files/GLCD.h)(0x5239C61E)
+I (Text.h)(0x523DD302)
+I (Time.h)(0x523DC85D)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504DF7CC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (board_files/sram.h)(0x5239C61E)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files/Serial.h)(0x5239C61E)
+F (.\Display.h)(0x523DC7F1)()
+F (.\Global.h)(0x523DC083)()
+F (.\Inputs.c)(0x523DD51D)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "inputs.o" --omf_browse "inputs.crf" --depend "inputs.d")
+I (Inputs.h)(0x523DD55D)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (board_files/JOY.h)(0x5239C61E)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504DF7CC)
+I (Display.h)(0x523DC7F1)
+I (board_files/GLCD.h)(0x5239C61E)
+I (Text.h)(0x523DD302)
+I (Time.h)(0x523DC85D)
+I (board_files/sram.h)(0x5239C61E)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files/Serial.h)(0x5239C61E)
+F (.\Inputs.h)(0x523DD55D)()
+F (.\Text.c)(0x523DD435)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "text.o" --omf_browse "text.crf" --depend "text.d")
+I (Text.h)(0x523DD302)
+I (Time.h)(0x523DC85D)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504DF7CC)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (board_files/sram.h)(0x5239C61E)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files/Serial.h)(0x5239C61E)
+I (Display.h)(0x523DC7F1)
+I (board_files/GLCD.h)(0x5239C61E)
+F (.\Text.h)(0x523DD302)()
+F (.\Time.c)(0x523DC869)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "time.o" --omf_browse "time.crf" --depend "time.d")
+I (Time.h)(0x523DC85D)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504DF7CC)
+I (Display.h)(0x523DC7F1)
+I (board_files/GLCD.h)(0x5239C61E)
+I (Text.h)(0x523DD302)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB18954)
+I (board_files/sram.h)(0x5239C61E)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h)(0x4FFB2A18)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006E052)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A135C)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB4B2C)
+I (C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h)(0x4F58FBDA)
+I (board_files/Serial.h)(0x5239C61E)
+F (.\Time.h)(0x523DC85D)()
+F (.\RTX_Conf_CM.c)(0x5239C93E)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F2xx -o "rtx_conf_cm.o" --omf_browse "rtx_conf_cm.crf" --depend "rtx_conf_cm.d")
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x504DF7CC)
+I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x5050D948)

@@ -1,0 +1,14 @@
+display.o: Display.c
+display.o: Display.h
+display.o: board_files/GLCD.h
+display.o: Text.h
+display.o: Time.h
+display.o: C:\Keil\ARM\RV31\INC\RTL.h
+display.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+display.o: board_files/sram.h
+display.o: C:\Keil\ARM\Inc\ST\STM32F2xx\stm32f2xx.h
+display.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+display.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+display.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+display.o: C:\Keil\ARM\Inc\ST\STM32F2xx\system_stm32f2xx.h
+display.o: board_files/Serial.h
