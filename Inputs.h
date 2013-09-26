@@ -7,11 +7,11 @@
 #include "Display.h"
 #include "Time.h"
 
+//event flags for the keys
 #define KEY_WAKEUP 1
 #define KEY_TAMPER 2
 
 //redefine JOY constants here because they're flipped.
-
 #define JOY_UP    (1 << 0)
 #define JOY_DOWN   (1 << 1)
 #define JOY_RIGHT      (1 << 3)
@@ -19,6 +19,7 @@
 
 #define MESSAGE_OFFSET_INCREMENT 20
 
+//joystick event flag definitions
 enum Joy_Machine
 {
 	JOY_WAIT = 0,
@@ -40,6 +41,5 @@ extern uint16_t messageCount;
 extern OS_SEM semIncMin;
 
 extern OS_SEM semIncHour;
-//OS_SEM semIncSec;
 
 #endif

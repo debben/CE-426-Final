@@ -1,6 +1,12 @@
 #include "Time.h"
 #include "Display.h"
-//increment minutes task
+
+/*
+	Method Name: taskIncMin
+	Parameters: none
+	Purpose: safely incrments the min count when signalled
+	returns: none
+*/
 __task void taskIncMin(void) {
 		OS_RESULT err;
 		for(;;){
@@ -9,7 +15,8 @@ __task void taskIncMin(void) {
 			//modify the value
 			time.min++;
 			if(time.min >= 60){
-				time.min = 0;				
+				time.min = 0;
+				//increment the hour if more than 60				
 				os_sem_send(&semIncHour);
 			}
 			os_mut_release(&mutTime);
@@ -19,7 +26,12 @@ __task void taskIncMin(void) {
 		}
 }
 
-//increment hour task
+/*
+	Method Name: taskIncHour
+	Parameters: none
+	Purpose: safely incrments the hour count when signalled
+	returns: none
+*/
 __task void taskIncHour(void){
 	OS_RESULT err;
 	for(;;){
@@ -37,6 +49,12 @@ __task void taskIncHour(void){
 	}
 }
 
+/*
+	Method Name: taskIncSec
+	Parameters: none
+	Purpose: safely incrments the sec count when signalled
+	returns: none
+*/
 __task void taskIncSec(void){
 	OS_RESULT err;
 	for(;;){	
@@ -46,6 +64,7 @@ __task void taskIncSec(void){
 			time.sec++;
 			if(time.sec > 59){
 				time.sec = 0;
+				//signal the min increment if > 60
 				os_sem_send(&semIncMin);
 			}
 			os_mut_release(&mutTime);
